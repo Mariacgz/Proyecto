@@ -113,10 +113,11 @@ ul li a:before {
 }
 
 .articulo {
-    background-color: #D9ACF5;
+    background-color: white;
     text-align: center;
     color: black;
     padding: 10px;
+    margin: 20px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -125,6 +126,7 @@ ul li a:before {
     background-color: #FDEBED;
     color: black;
     text-align: center;
+    margin-top: 50px;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
