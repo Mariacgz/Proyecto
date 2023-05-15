@@ -255,3 +255,33 @@ ul li a:before {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+form{
+    margin: 10px 500px 10px;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px #FFCEFE;
+    border-radius: 10px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+    color:#AAE3E2;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 4px 25px;
+    margin-bottom: 2px;
+    outline: none;
+}
+
+.btn{
+    font-size: 15px;
+    background-color: #FDEBED;
+    border: 0;
+    cursor: pointer;
+}
