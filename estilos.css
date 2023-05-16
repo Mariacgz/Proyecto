@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     background-color: #AAE3E2;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -34,7 +35,7 @@ ul li a {
     position: relative;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     justify-content: space-around;
     padding: 5px;
     transition: 0.5s;
@@ -45,7 +46,7 @@ ul li a:hover {
 
     transform: scale(1.4);
     opacity: 2;
-    color:indigo;
+    color: indigo;
     filter: blur(0px);
 
 }
@@ -78,7 +79,7 @@ ul li a:before {
     grid-area: izquierda;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style:normal;
+    font-style: normal;
     grid-area: auto;
     gap: 5px;
     height: 100%;
@@ -98,7 +99,7 @@ ul li a:before {
     width: 100%;
     height: 100%;
     justify-content: center;
-    text-align:justify;
+    text-align: justify;
 
 }
 
@@ -126,7 +127,7 @@ ul li a:before {
 .footer {
     background-color: #FDEBED;
     color: black;
-    text-align: center;
+    text-align:center;
     margin-top: 50px;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -189,10 +190,68 @@ ul li a:before {
 }
 
 .caja {
-padding: 20px;
-margin: 20px;
-color: black;
-text-align: center;
-font-style:italic;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+.contenidop {
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    text-align: center;
+    gap: 3px;
+
+}
+
+.contenidop>div {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.imagen1 {
+    border-radius: 30px;
+    width: 50%;
+    max-width: 400px;
+}
+
+
+
+.cursos1 {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 5px;
+    background-color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    border: solid black;
+}
+
+.cursos1>div {
+    padding: 10px;
+    border: solid coral;
+    border-radius: 10px;
+    gap: 5px;
+
+}
+
+
+.titulo {
+    background-color: #FFCEFE;
+    width: 100%;
+    text-align: justify;
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
