@@ -256,6 +256,7 @@ ul li a:before {
 
 }
 
+
 form{
     margin: 10px 500px 10px;
     padding: 50px 55px;
@@ -284,4 +285,42 @@ input, textarea{
     background-color: #FDEBED;
     border: 0;
     cursor: pointer;
+}
+
+.mapa{
+    text-align: center;
+}
+
+.mapa p{
+    color: #AAE3E2;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+} 
+
+.footerct {
+    background-color: #FDEBED;
+    color: black;
+    text-align:center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.iconos a i{
+    font-size: 50px;
+    color: black;
+    padding: 8px;
+}
+
+.iconos a:hover i{
+    color: #AAE3E2;
+    transition: 0.2 s;
+}
+
+.copy{
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
 }
