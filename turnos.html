@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EstiloWhite</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estiloturnos.css">
 
 </head>
 
@@ -39,30 +40,40 @@
 
     </header>
 
-    <form>
-        <div class="input-group">
-            <h2>Turnos</h2>
-            <label for="n">Nombre:</label>
-            <input type="text" name="nombre" id="n" placeholder="Nombre"> <br> <br>
-            <label for="a">Apellido:</label>
-            <input type="text" name="apellido" id="a" placeholder="Apellido"> <br> <br>
-            <label for="t">Teléfono:</label>
-            <input type="tel" name="telefono" id="t" placeholder="Teléfono"> <br> <br>
-            <label for="m">EMail:</label>
-            <input type="email" name="mail" id="m" placeholder="EMail"> <br> <br>
-            <label for="serv">Servicio:</label>
-            <select name="servicio" id="serv"> 
-                <option selected>Keratina</option>
-                <option>Alisado Brasilero</option>
+
+    <form class="form">
+        <h2 class="titulo_form">Registra tu turno</h2>
+        <div class="form_container">
+        <div class="form_grupo">
+            <input type="text" id="nombre" class="form_input" placeholder=" ">
+            <label for="nombre" class="form_label">Nombre:</label>
+            <span class="form_line"></span>
+        </div>
+        <div class="form_grupo">
+            <input type="text" id="apellido" class="form_input" placeholder=" ">
+            <label for="apellido" class="form_label">Apellido:</label>
+            <span class="form_line"></span>
+        </div>
+        <div class="form_grupo">
+            <input type="text" id="telefono" class="form_input" placeholder=" ">
+            <label for="telefono" class="form_label">Telefono:</label>
+            <span class="form_line"></span>
+        </div>
+        <div class="form_grupo">
+            <select name="motivo" id="motivo" class="form_select"> 
+                <option selected>Selecciona acá:</option>
+                <option>Keratina con Queration</option>
+                <option>Alisado brasilero</option>
                 <option>Botox Capilar</option>
-                <option>Biotina & Colágeno</option>
-            </select> <br> <br>
-            <label for="f">Fecha:</label>
-            <input type="date" name="fecha" id="f"> <br> <br>
-            <label for="h">Hora:</label>
-            <select name="hora" id="h"> 
-                <option selected>9:00</option>
-                <option>9:30</option>
+                <option>Colageno y Biotina</option>
+            </select>
+            <label for="motivo" class="form_label">Servicio:</label>
+            <span class="form_line"></span>
+        </div>
+        <div class="form_grupo">
+            <select name="horario" id="horario" class="form_select"> 
+                <option selected>09:00</option>
+                <option>09:30</option>
                 <option>10:00</option>
                 <option>10:30</option>
                 <option>11:00</option>
@@ -78,11 +89,13 @@
                 <option>16:00</option>
                 <option>16:30</option>
                 <option>17:00</option>
-            </select> <br> <br>
-            <input class="btn" type="submit" value="Enviar">
+            </select>
+            <label for="horario" class="form_label">Horario:</label>
+            <span class="form_line"></span>
         </div>
-    </form>
-
+        <input class="form_submit" type="submit" value="Enviar">
+    </div>
+       </form>
 
 
 

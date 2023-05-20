@@ -1,3 +1,4 @@
+
 .container{
     width: 90%;
     padding: 10px 40px;
@@ -13,7 +14,7 @@
   position: relative;
   text-align: start;
   font-size: 18px;
-  background: #fff;
+  background: #FFCEFE;
   border-radius: 15px;
   box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
   
@@ -22,7 +23,7 @@
  display: block;
  width: 100%;
  height: 280px;
- object-fit:fill;
+ object-fit:cover;
  border-radius: 20px;
  border-top-right-radius: 15px;
 }

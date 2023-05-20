@@ -1,0 +1,112 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:contents;
+    min-height: 100vh;
+}
+
+.form {
+    background-color: #fff;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0 / 30%);
+    text-align: center;
+}
+
+.titulo_form{
+    color:indigo;
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+
+.form_line{
+    font-weight: 400;
+    color: #000;
+}
+
+.form_container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+
+.form_grupo {
+    position: relative;
+
+}
+
+.form_input {
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form_input:not(:placeholder-shown){
+    color: indigo;
+
+}
+
+.form_input:focus + .form_label, .form_input:not(:placeholder-shown) + .form_label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #000;
+}
+
+.form_label {
+    font-size: 16px;
+    color: indigo;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+.form_submit {
+    background-color: #AAE3E2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: .5em;
+}
+.form_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: red ;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform 0.4s;
+}
+.form_input:focus ∼ .form_line, .form_input:not(:placeholder-shown) ∼ .form_line{
+    transform: scale(1);
+
+
+}
+
+select{
+    color: indigo;
+    background: transparent;
+     border: none;
+     font-size: 15px;
+     height: 40px;
+     padding: 6px;
+     width: 200px;
+}
+
+.form_submit:hover{
+    color: #fff;
+    background-color: indigo;
+    font-size: 18px;
+}
