@@ -41,31 +41,55 @@
         </div>
     </header>
 
-    <form action="" id="formulario">
+    <form action="" method="" id="formulario">
         <div class="input-group">
             <h2>Contacto</h2>
-            <label for="n">Nombre:</label>
-            <input type="text" name="nombre" id="n" placeholder="Nombre"> 
-            <label for="a">Apellido:</label>
-            <input type="text" name="apellido" id="a" placeholder="Apellido"> 
-            <label for="t">Teléfono:</label>
-            <input type="tel" name="telefono" id="t" placeholder="Teléfono"> 
-            <label for="m">EMail:</label>
-            <input type="email" name="mail" id="m" placeholder="EMail"> 
-            <label for="mot">Motivo de su consulta:</label>
-            <select name="motivo" id="mot"> 
-                <option selected>Consulta General</option>
-                <option>Servicios</option>
-                <option>Cursos</option>
-                <option>Productos</option>
-            </select> 
-            <label for="c">Consulta:</label>
-            <textarea name="comentario" id="c" placeholder="Escriba su consulta"></textarea> 
+
+            <div class="form-control">
+                <label for="n">Nombre:</label>
+                <input type="text" style="width:330px;height:30px" name="nombre" id="n" placeholder="Nombre"> 
+                <p></p>
+            </div>
+
+            <div class="form-control">
+                <label for="a">Apellido:</label>
+                <input type="text" style="width:330px;height:30px" name="apellido" id="a" placeholder="Apellido"> 
+                <p></p>
+            </div>
+
+            <div class="form-control">
+                <label for="t">Teléfono:</label>
+                <input type="tel" style="width:330px;height:30px" name="telefono" id="t" placeholder="Teléfono"> 
+                <p></p>
+            </div>
+
+            <div class="form-control">
+                <label for="m">EMail:</label>
+                <input type="email" style="width:330px;height:30px" name="mail" id="m" placeholder="EMail"> 
+                <p></p>
+            </div>
+
+            <div class="form-control">
+                <label for="mot">Motivo de su consulta:</label>
+                <select name="motivo" id="mot"> 
+                    <option selected>Consulta General</option>
+                    <option>Servicios</option>
+                    <option>Cursos</option>
+                    <option>Productos</option>
+                </select> 
+            </div>
+
+            <div class="form-control">
+                <label for="c">Consulta:</label>
+                <textarea style="width:330px;height:90px" name="comentario" id="c" placeholder="Escriba su consulta"></textarea> 
+                <p></p>
+            </div>
+
             <input type="submit" class="btn" value="Enviar">
+            <input type="reset" class="btn" value="Reestablecer">
+
         </div>
     </form>
-
-    <div id="error"></div>
 
     <script src="validacion.js"></script> 
 
