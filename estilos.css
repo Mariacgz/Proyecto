@@ -31,7 +31,7 @@
     position: relative;
     font-family: 'Bebas Neue', sans-serif;
     color: black;
-    font-size: 3vw;
+    font-size: 2.6vw;
     justify-content: space-around;
     padding: 20px;
     transition: 0.5s;
@@ -339,7 +339,7 @@ select,option{
 }
 
 .footer-links h5 {
-    font-size: 2vw;
+    font-size: 1.9vw;
     font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 10px;
     border-bottom: 5px solid #AAE3E2;
@@ -347,7 +347,7 @@ select,option{
 }
 
 .footer-links p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -357,7 +357,7 @@ select,option{
 
 .footer-links ul li a {
     color: black;
-    font-size: 2vw;
+    font-size: 1.3vw;
     font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
     display: block;
@@ -383,7 +383,7 @@ select,option{
 
 .copy {
     text-align: left;
-    font-size: 1.9vw;
+    font-size: 1.3vw;
     padding: 5px;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -402,7 +402,31 @@ select,option{
         display: flex;
         flex-wrap: wrap;
     }
+    .padre ul li a {
+        font-size: 3vw;}
 }
+
+@media(max-width: 920px) {
+    .carrito {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media(max-width: 920px) {
+    .lupa {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media(max-width: 920px) {
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+}
+
 
 @media(max-width: 920px) {
     .articulo {
@@ -450,10 +474,37 @@ select,option{
 /*footer*/
 
 @media (max-width: 920px) {
+
+
     .footer-links {
-        width: 50%;
+        flex-wrap:wrap;
     }
+
+    .footer-row {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-links h5 {
+        font-size: 3vw;
+    }
+
+    .footer-links p {
+        font-size: 2vw;
+    }
+
+    .footer-links ul li a {
+        font-size: 2vw;
+    }
+
+    .copy {
+        font-size: 2vw;
+    }
+    .iconos a i {
+        font-size: 35px;}
 }
+
+
 
 /*tamaño para telefono*/
 
@@ -489,7 +540,31 @@ select,option{
         margin-bottom: 10px;
         font-size: 2vw;
     }
+    .padre ul li a {
+        font-size: 3.5vw;}
 }
+
+@media(max-width: 600px) {
+    .carrito {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media(max-width: 600px) {
+    .lupa {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media(max-width: 600px) {
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+}
+
 
 /*aside*/
 
@@ -524,20 +599,33 @@ select,option{
 /*footer*/
 
 @media (max-width: 600px) {
-
-
-    .footerct {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .footer-links {
-        flex-direction: column;
-        align-items: center;
+        flex: 100%;
+        width: 100%;
     }
-    .footer-links ul li {
-        flex-direction: column;
-        align-items: center;}
+
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-links h5 {
+        font-size: 3vw;
+    }
+
+    .footer-links p {
+        font-size: 2vw;
+    }
+
+    .footer-links ul li a {
+        font-size: 2vw;
+    }
+
+    .copy {
+        font-size: 2vw;
+    }
+    .iconos a i {
+        font-size: 30px;}
+
 }
 
 
