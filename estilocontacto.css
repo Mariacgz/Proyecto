@@ -121,9 +121,8 @@ label{
     text-align: left;
 }
 
-input, textarea{
-    padding: 6px 60px;
-    margin-bottom: 15px;
+input,textarea{
+    margin-bottom: 10px;
     border-radius: 5px;
     outline: none;
     background-color:#FDEBED;
@@ -131,11 +130,6 @@ input, textarea{
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
-    text-align: left;
-}
-
-#c{
-    padding: 6px 60px 60px;
 }
 
 select,option{
@@ -157,12 +151,49 @@ select,option{
     border: solid 0.2px;
     border-color: black;
     cursor: pointer;
+    margin: auto;
     margin-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    display: flex;
-    flex-direction: column;
     text-align: center;
+}
+
+.form-control.valida input{
+    border: 0.1px solid;
+    border-color: green;
+}
+
+.form-control-consulta.valida textarea{
+    border: 0.1px solid;
+    border-color: green;
+}
+
+.form-control.error input{
+    border: 0.1px solid;
+    border-color: red;
+}
+
+.form-control-consulta.error textarea{
+    border: 0.1px solid;
+    border-color: red;
+}
+
+.form-control p{
+    visibility: hidden;
+}
+
+.form-control.error p{
+    visibility: visible;
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-control-consulta.error p{
+    visibility: visible;
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
 /*ESTILOS MAPA*/
@@ -248,4 +279,3 @@ select,option{
     padding: 5px;
     font-family: 'Bebas Neue', sans-serif;
 }
-
