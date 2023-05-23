@@ -54,7 +54,7 @@
     
 }
 .container .card-description .card-link a:hover{
-    font-size: 26px;
+    font-size: 30px;
     color: #1fdcad;
 }
 .swiper-button-next{
@@ -105,3 +105,23 @@
    object-fit:cover;
    border-radius: 50%;
   }
+  .form_submit {
+  
+    font-size: 18px;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #AAE3E2;
+    border: solid 0.2px;
+    border-color: black;
+    border-radius: .3em;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    
+}
+.form_submit:hover{
+    background-color:  #5fdfdd;
+    font-size: 26px;
+}
