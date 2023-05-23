@@ -1,6 +1,9 @@
-
+*{
+    font-family: 'Bebas Neue', sans-serif;
+}
 .container{
     width: 90%;
+    height: 90%;
     padding: 10px 40px;
 }
 
@@ -11,12 +14,13 @@
 }
 
 .container .swiper-slide {
+    height: 600px;
   position: relative;
   text-align: start;
   font-size: 18px;
-  background: #FFCEFE;
+  background: #fff;
   border-radius: 15px;
-  box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
   
 }
 .container .swiper-slide img{
@@ -24,8 +28,6 @@
  width: 100%;
  height: 280px;
  object-fit:cover;
- border-radius: 20px;
- border-top-right-radius: 15px;
 }
 
 .container .card-description{
@@ -34,7 +36,7 @@
 }
 .container .card-description .card-title{
     font-size: 24px;
-    color: indigo;
+    color: #000;
     text-align: center;
 }
 .container .card-description .card-text {
@@ -45,8 +47,15 @@
     text-align: center;
 }
 .container .card-description .card-link a{
-    text-decoration: none;
-    color: indigo;
+    font-size: 28px;
+    text-decoration:none;
+    color: #AAE3E2;
+    -webkit-text-stroke: 0.3px black;
+    
+}
+.container .card-description .card-link a:hover{
+    font-size: 26px;
+    color: #1fdcad;
 }
 .swiper-button-next{
     right: 26px !important;
@@ -54,3 +63,45 @@
 .swiper-button-prev{
     left: 26px !important;
 }
+.bottom:hover{
+    color: #fff;
+    background-color: indigo;
+    font-size: 17px;
+}
+
+.parrafo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.opinion{
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: italic;
+}
+
+.containeer .swiper-containeer {
+    padding-left: 40%;
+    width: 280px;
+    height: 320px;
+    
+  }
+  
+  .containeer .swiper-containeer .swipeer-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
+    
+  }
+  .containeer .swiper-containeer .swipeer-slide img{
+   padding-left: 14px;
+   display: block;
+   width: 250px;
+   height: 260px;
+   object-fit:cover;
+   border-radius: 50%;
+  }
