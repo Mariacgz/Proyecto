@@ -14,7 +14,7 @@
 }
 
 .container .swiper-slide {
-    height: 600px;
+  height: 600px;
   position: relative;
   text-align: start;
   font-size: 18px;
@@ -35,13 +35,14 @@
     font-size: 20px;
 }
 .container .card-description .card-title{
-    font-size: 24px;
+    font-size: 30px;
     color: #000;
     text-align: center;
 }
 .container .card-description .card-text {
     margin-bottom: 0.5rem;
-    text-align:left;
+    font-family: 'Lato', sans-serif;
+    text-align:justify;
 }
 .container .card-description .card-link{
     text-align: center;
@@ -49,13 +50,11 @@
 .container .card-description .card-link a{
     font-size: 28px;
     text-decoration:none;
-    color: #AAE3E2;
-    -webkit-text-stroke: 0.3px black;
-    
+    color: black
 }
 .container .card-description .card-link a:hover{
-    font-size: 30px;
-    color: #1fdcad;
+    color: #AAE3E2;
+    transition: 0.2 s;
 }
 .swiper-button-next{
     right: 26px !important;
@@ -87,26 +86,28 @@
     height: 320px;
     
   }
-  
-  .containeer .swiper-containeer .swipeer-slide {
+
+.containeer .swiper-containeer .swipeer-slide {
     position: relative;
     text-align: center;
     font-size: 18px;
     background: #fff;
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
-    
+    margin-bottom: 50px;
   }
-  .containeer .swiper-containeer .swipeer-slide img{
-   padding-left: 14px;
+
+.containeer .swiper-containeer .swipeer-slide img{
+   padding: 14px;
    display: block;
    width: 250px;
-   height: 260px;
+   height: 250px;
    object-fit:cover;
    border-radius: 50%;
+
   }
-  .form_submit {
-  
+
+.form_submit {
     font-size: 18px;
     font-family: 'Bebas Neue', sans-serif;
     background-color: #AAE3E2;
@@ -119,9 +120,74 @@
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    
 }
-.form_submit:hover{
+/*.form_submit:hover{
     background-color:  #5fdfdd;
     font-size: 26px;
+}*/
+
+.footerct {
+    background-color: #FDEBED;
+    color: black;
+}
+
+.footer-row{
+    display: flex;
+}
+
+.footer-links{
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-links h5{
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #AAE3E2;
+    display: inline-block;
+}
+
+.footer-links p{
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.footer-links ul li {
+    list-style: none;
+}
+
+.footer-links ul li a{
+    color: black;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a:hover{
+    color: #AAE3E2;
+    transition: 0.2 s;
+}
+
+.iconos a i{
+    font-size: 50px;
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+
+.iconos a:hover i{
+    color: #AAE3E2;
+    transition: 0.2 s;
+}
+
+.copy{
+    text-align: left;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Bebas Neue', sans-serif;
 }

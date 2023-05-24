@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     background-color: #AAE3E2;
+    margin-bottom: 20px;
 }
 
 .padre ul {
@@ -207,7 +208,74 @@ select{
      width: 200px;
 }
 
-.form_submit:hover{
+/*.form_submit:hover{
     background-color:  #5fdfdd;
     font-size: 26px;
+}*/
+
+.footerct {
+    background-color: #FDEBED;
+    color: black;
+    margin-top: 50px;
+}
+
+.footer-row{
+    display: flex;
+}
+
+.footer-links{
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-links h5{
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #AAE3E2;
+    display: inline-block;
+}
+
+.footer-links p{
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.footer-links ul li {
+    list-style: none;
+}
+
+.footer-links ul li a{
+    color: black;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a:hover{
+    color: #AAE3E2;
+    transition: 0.2 s;
+}
+
+.iconos a i{
+    font-size: 50px;
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+
+.iconos a:hover i{
+    color: #AAE3E2;
+    transition: 0.2 s;
+}
+
+.copy{
+    text-align: left;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Bebas Neue', sans-serif;
 }
