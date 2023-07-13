@@ -1,0 +1,122 @@
+/* Estilos para todo el proyecto */
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.contenedor-centrado {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    font-size: 40px;
+   
+}
+
+h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    font-size: 20px;
+   
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+table {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
+    background-color: #fff;
+    margin: auto;
+    max-width: 90%;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #AAE3E2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #66c3c1;
+}
+
+button {
+    padding: 5px;
+    margin:4px;
+    background-color: #AAE3E2;
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 85%;
+}
+
+button:hover {
+    background-color: #66c3c1;
+}
+
+a {
+    padding: 5px;
+    margin:4px;
+    background-color: #AAE3E2;
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 85%;
+}
+
+a:hover {
+    background-color: #66c3c1;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin-left: 630px;
+    background-color: none;
+    border-radius: 50%;
+}
